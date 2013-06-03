@@ -1,0 +1,25 @@
+{
+  "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
+, "name": "redis-collections"
+, "description": "Redis collections and list utility"
+, "version": "0.0.1"
+, "license": "MIT"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/sorensen/redis-collections.git"
+  }
+, "engines": {
+    "node": "0.x"
+  }
+, "main": "index.js"
+, "scripts": {
+    "test": "make test"
+  }
+, "dependencies": {
+    "redis": "0.8.3"
+  , "redis-lua-loader": "0.0.2"
+  }
+, "devDependencies": {
+    "mocha": "1.9.0"
+  }
+}
